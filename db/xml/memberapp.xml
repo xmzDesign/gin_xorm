@@ -1,0 +1,6 @@
+<sqlMap>
+    <sql id="queryByName">
+        SELECT * FROM member_app
+        WHERE app_name =?
+    </sql>
+</sqlMap>
